@@ -1,11 +1,12 @@
-import React from "react";
-
+import React from 'react';
+import Weather from './Weather';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-        Weather Application
+      <div className="container">
+      <Weather />
         <footer>  
         This code is hosted on GitHub and is {" "}
           <a
@@ -26,6 +27,7 @@ function App() {
             Antonia Bezinovic
           </a>
           </footer>
+          </div>
     </div>
   );
 }
