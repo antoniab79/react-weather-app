@@ -14,13 +14,13 @@ export default function UnitConversion(props) {
     }
 
     function fahrenheit() {
-        return (props.celsius * 9) /5 +32;
+        return (props.celsius * 9) / 5 +32;
     }
 
     if (unit === "celsius") {
         return (
             <div className="unitConversion">
-                <span className="temperature">{Math.round(props.celsius)}</span>
+                <span className="temperature">{Math.round(props.celsius)} </span>
                 <span className="unit"> °C |{" "}
                 <a href="/" onClick={showFahrenheit}>F</a>
                 </span>
@@ -29,8 +29,8 @@ export default function UnitConversion(props) {
     } else {
     return (
         <div className="unitConversion">
-        <span className="temperature">{Math.round(fahrenheit())}</span>
-        <span className="unit"> <a href="/" onClick={showCelsius}> °C </a>{" "} | °F </span>
+        <span className="temperature">{Math.round(fahrenheit())} </span>
+        <span className="unit"> <a href="/" onClick={showCelsius}> °C {" "} </a> |{" "} °F </span>
         </div>
     );
 }
