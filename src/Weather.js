@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import WeatherInfo from "./WeatherInfo";
-import UnitConversion from "./UnitConversion";
 import axios from "axios";
 import "./Weather.css";
 
