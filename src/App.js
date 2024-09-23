@@ -8,23 +8,32 @@ export default function App() {
       <div className="container">
       <Weather defaultCity ="London" />
         <footer>  
-        This code is hosted on GitHub and is {" "}
+        This project was coded by {" "}
+        <a
+            className="App-link"
+            href="https://webleviathan.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Antonia Bezinovic{" "}
+          </a>{" "}
+          and is open-sourced on {" "}
           <a
             className="App-link"
             href="https://github.com/antoniab79/react-weather-app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            open sourced
+            GitHub {" "}
           </a>
-          ; {" "}coded by{" "}
+          & {" "}hosted on {" "}
           <a
             className="App-link"
-            href="https://www.shecodes.io/graduates/109902-antonia-bezinovic"
+            href="https://antonias-weather-app.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Antonia Bezinovic
+            Netlify
           </a>
           </footer>
           </div>
